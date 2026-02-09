@@ -17,6 +17,7 @@ client.once(Events.ClientReady, (readyClient) => {
 
 client.commands = new Collection();
 
+// eslint-disable-next-line no-undef
 const foldersPath = path.join(__dirname, "commands");
 const commandFolders = fs.readdirSync(foldersPath);
 
